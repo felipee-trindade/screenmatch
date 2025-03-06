@@ -4,13 +4,13 @@ public class Recomendacao {
 
     public void filtro(Classificavel classificavel) {
         if (classificavel.getClassificacao() >= 4) {
-            System.out.println("Está entre os favoritos!!");
+            System.out.print("Está entre os favoritos!! - Nome: ");
         } 
         else if (classificavel.getClassificacao() >= 2) {
-            System.out.println("Bem avaliado no momento!");
+            System.out.print("Bem avaliado no momento! - Nome: ");
         }
         else {
-            System.out.println("Baixa avaliação.");
+            System.out.print("Baixa avaliação. - Nome: ");
         }
     }
 }
