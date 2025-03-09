@@ -1,9 +1,9 @@
+package br.com.screenmatch.principal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 import br.com.screenmatch.calculos.CalculadoraDeTempo;
-import br.com.screenmatch.calculos.Classificavel;
 import br.com.screenmatch.calculos.Recomendacao;
 import br.com.screenmatch.modelo.Episodio;
 import br.com.screenmatch.modelo.Filme;
@@ -79,5 +79,7 @@ public class App {
         System.out.println(listaFilme);
         listaFilme.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
         System.out.println(listaFilme);
+
+        
     }
 }
